@@ -67,3 +67,30 @@ print(programming_languages)
 print(programming_languages.rstrip())
 print(programming_languages.lstrip())
 print(programming_languages.strip())
+
+
+#syntax error con String
+message = "una fortaleza de python es su comunidad"
+print(message)
+
+# F-strings
+famous_person = "Taylor Swift"
+message = (f"{famous_person.upper()} una vez dijo me voy al oxxo en avion." )
+print(message)
+
+# Actividad
+"""
+
+Elije el nombre de una persona famosa (quien tu quieras).
+Elige una cita famosa de esta persona.
+Iguala ambos strings a una variabe.
+
+1) Realiza la concatenacion utiliando el signo de suma
+2)Realiza la concatenacion utilizando strings
+
+"""
+
+famous_person = "Tony Stark"
+quote= "Genio, filantropo, playboy y multimillonario"
+
+print(famous_person+" "+quote)
