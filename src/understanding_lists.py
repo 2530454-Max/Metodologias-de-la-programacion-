@@ -33,6 +33,23 @@ print (message)
 message_f = f"Mi primer bicicleta fue una {bicycles[4].title()}."
 print(message_f)
 
-##Agregar elementos a una lista
-print("")
+
+"""
+Agregar elementos a una lista:
+    - append(): Agrega un elemento al final de la lista
+
+"""
+
+
+"""
+Ejemplo de lista
+
+"""
+
+students = ["josue", "Victor", "ana", "mike", "paulo", "gerardo"]
+print (students)
+desired_students = input("Que estudiante deseas borrar de la lista?:")
+students.remove(desired_students.strip().lower())
+print (students)
+
 
