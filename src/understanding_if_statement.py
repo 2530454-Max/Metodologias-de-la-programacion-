@@ -47,3 +47,8 @@ elif age <18 and age >4 :
     print("La entrada cuesta $200")
 elif age >= 18: 
     print("La entrada cuesta $400")
+
+
+
+
+

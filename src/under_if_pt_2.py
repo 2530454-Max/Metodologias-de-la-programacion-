@@ -8,7 +8,12 @@ for guiso in guisos_a_ordenar:
     print(f"deseo ordenar")
     if guiso in guisos_disponibles:
         print(f"si tenemos {guiso}")
-        else:
-            print("No tenemos de ese guiso")
+
+    else:
+        print("No tenemos de ese guiso")
 print("Realizando pedido...")
 
+print("Pedido realizado con exito")
+print("Gracias por su compra")
+print("Hasta luego")
+print("Fin del programa")
