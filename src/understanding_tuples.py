@@ -12,5 +12,7 @@ print (rectangle_measures[0])
 print (rectangle_measures[1])
 
 for measure in rectangle_measures:
+    print(measure)
 print(rectangle_measures)
 print (dir(rectangle_measures)) #built-in dir 
+

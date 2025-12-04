@@ -20,3 +20,17 @@ def greetting_Christopher():
         print("Hello Christopher")
 
 greetting_Christopher()
+
+
+#Ejemplo de una funcion que genere el nombre completo de una persona y lo regrese
+def create_full_name(first_name, last_name, middle_name=""):
+    full_name = f"{first_name.strip()} {middle_name} {last_name.strip()}". title()
+    return full_name
+
+firts_name = input("Ingresa tu primer nombre: ")
+middle_name = input("Ingresa tu segundo nombre: (Si no tiene segundo nombre dale a enter)")
+last_name = input("Ingresa tu apellido: ")
+generated_full_name = create_full_name(firts_name.lower(), last_name.lower(), middle_name.lower())
+
+
+print(generated_full_name)
